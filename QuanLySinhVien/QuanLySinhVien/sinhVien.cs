@@ -32,7 +32,7 @@ public class sinhVien : lop
         {
             Console.WriteLine("Thong tin cac sinh vien:");
             Console.WriteLine("Sinh vien " + (i + 1) + " :");
-            Console.WriteLine("Ma sinh vien: " + danhSachSinhVien[i].tenSinhVien);
+            Console.WriteLine("Ma sinh vien: " + danhSachSinhVien[i].maSinhVien);
             Console.WriteLine("Ho ten: " + danhSachSinhVien[i].tenSinhVien);
             Console.WriteLine("Ngay sinh" + danhSachSinhVien[i].ngaySinh);
             Console.WriteLine("Dia chi" + danhSachSinhVien[i].diaChi);
