@@ -21,8 +21,9 @@ public class sinhVien : lop
         this.diaChi = Console.ReadLine();
         Console.Write("So dien thoai: ");
         this.soDienThoai = Console.ReadLine();
-        Console.Write("Ten lop");
+        Console.Write("Ten lop: ");
         this.tenLop = Console.ReadLine().ToUpper();
+        danhSachSinhVien.Add(this);
     }
 
     public void hienThi(List<sinhVien> danhSachSinhVien)

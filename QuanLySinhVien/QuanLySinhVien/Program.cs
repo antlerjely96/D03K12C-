@@ -19,7 +19,7 @@ public class Program
             Console.WriteLine("4. Sua thong tin sinh vien");
             Console.WriteLine("5. Xoa sinh vien");
             Console.WriteLine("6. Thoat");
-            Console.WriteLine("Chon: ");
+            Console.Write("Chon: ");
             n = int.Parse(Console.ReadLine());
             switch (n)
             {
