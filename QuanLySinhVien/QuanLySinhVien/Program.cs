@@ -10,7 +10,6 @@ public class Program
         int n;
         List<sinhVien> DanhSachSinhVien = new List<sinhVien>();
         sinhVien sv = new sinhVien();
-        sv.nhap(DanhSachSinhVien);
         do
         {
             Console.WriteLine("Menu");
@@ -45,7 +44,6 @@ public class Program
                     Console.WriteLine("Chon sai");
                     break;
             }
-        } while (n == 6);
-        
+        } while (n != 6);
     }
 }

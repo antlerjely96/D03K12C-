@@ -23,7 +23,6 @@ public class sinhVien : lop
         this.soDienThoai = Console.ReadLine();
         Console.Write("Ten lop");
         this.tenLop = Console.ReadLine().ToUpper();
-        danhSachSinhVien.Add(this);
     }
 
     public void hienThi(List<sinhVien> danhSachSinhVien)
