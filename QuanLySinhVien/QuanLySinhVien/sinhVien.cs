@@ -1,4 +1,6 @@
-﻿namespace QuanLySinhVien;
+﻿using System.Collections;
+
+namespace QuanLySinhVien;
 
 public class sinhVien : lop
 {
@@ -34,9 +36,9 @@ public class sinhVien : lop
             Console.WriteLine("Sinh vien " + (i + 1) + " :");
             Console.WriteLine("Ma sinh vien: " + danhSachSinhVien[i].maSinhVien);
             Console.WriteLine("Ho ten: " + danhSachSinhVien[i].tenSinhVien);
-            Console.WriteLine("Ngay sinh" + danhSachSinhVien[i].ngaySinh);
-            Console.WriteLine("Dia chi" + danhSachSinhVien[i].diaChi);
-            Console.WriteLine("So dien thoai" + danhSachSinhVien[i].soDienThoai);
+            Console.WriteLine("Ngay sinh: " + danhSachSinhVien[i].ngaySinh);
+            Console.WriteLine("Dia chi: " + danhSachSinhVien[i].diaChi);
+            Console.WriteLine("So dien thoai: " + danhSachSinhVien[i].soDienThoai);
         }
     }
     
